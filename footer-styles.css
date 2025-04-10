@@ -1,12 +1,6 @@
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    font-family: sans-serif;
-  }
+
   
-  body {
-    margin: 0;
-  }
+ 
   
   footer {
     display: block;
@@ -2072,7 +2066,7 @@ html {
     left: 0;
   }
   
-  :root {
+  footer{
     --color--white: white;
     --font-family--body: Satoshi, sans-serif;
     --color--gray-1: #688C24;
@@ -3366,7 +3360,7 @@ html {
     }
   }
   
-  body {
+  footer body {
     background-color: var(--color--white);
     font-family: var(--font-family--body);
     color: var(--color--gray-1);
