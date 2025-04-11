@@ -7456,6 +7456,10 @@ html {
   }
   
   @media screen and (max-width: 767px) {
+
+    .w-commerce-commercecartwrapper{
+      display:none !important;
+    }
     h1 {
       font-size: 60px;
     }
