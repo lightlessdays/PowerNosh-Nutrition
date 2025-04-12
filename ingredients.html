@@ -1,0 +1,109 @@
+<html>
+<style>
+
+    .multicolumn .multicolumn2 .page-width .background-primary{
+        padding: 0 10rem;
+    }
+
+    .title.h1 {
+    font-size: 4rem; /* Adjust as needed */
+    color:#6e8c3e;
+    font-weight:500;
+    text-align:center;
+      }
+      
+      /* Make card titles smaller on mobile */
+      .multicolumn-card__info h3 {
+        font-size: 1.5rem; /* Adjust as needed */
+      }
+    
+      /* Description text mobile-specific adjustments */
+      .multicolumn-card__info .rte p {
+        font-size: 1.1rem;    /* Slightly smaller on mobile */
+        line-height: 1.3;      /* Tighter line spacing on mobile */
+      }
+    
+    /* Add border to each cell */
+    .multicolumn-card {
+      border: 2px solid rgba(0, 0, 0, 1); /* subtle border */
+      border-radius: 12px; /* rounded corners */
+      overflow: hidden; /* ensures content respects the border radius */
+      transition: box-shadow 0.3s ease; /* optional: adds hover effect */
+    }
+    
+    /* Optional: Add hover effect for interactivity */
+    .multicolumn-card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.58);
+    }
+    
+    /* Padding for the container - desktop */
+    .section-template--24164731945233__07fd3d78-77cd-4794-8578-53d94d29ceca-padding {
+      padding: 10px 120px;
+    }
+    
+    /* Padding for the container - mobile */
+    @media screen and (max-width: 749px) {
+    
+     /* Make main title smaller on mobile */
+      .title.h1 {
+        font-size: 2rem; /* Adjust as needed */
+    color:#6e8c3e;
+    font-weight:500;
+      }
+    
+      
+      /* Make card titles smaller on mobile */
+      .multicolumn-card__info h3 {
+        font-size: 1.1rem; /* Adjust as needed */
+      }
+      .section-template--24164731945233__07fd3d78-77cd-4794-8578-53d94d29ceca-padding {
+        padding: 10px;
+      }
+    }
+    
+    /* Add some padding inside each card for better spacing */
+    .multicolumn-card__info {
+      padding: 16px;
+    }</style>
+
+<body>
+<div id="dynamic-content"></div>
+
+<script>
+  // Dictionary mapping product keywords to HTML content
+  const contentMap = {
+    "cognikind": "<div class='product-banner'><h3>CogniKind</h3><p>Support for cognitive health and mental clarity</p></div>",
+    "conquer": "<div class='product-banner'><h3>Conquer</h3><p>Formulated to help you overcome challenges</p></div>",
+    "cureva": `  `,
+    "elevate": "<div class='product-banner'><h3>Elevate</h3><p>Boost your energy and performance</p></div>",
+    "extend": "<div class='product-banner'><h3>Extend</h3><p>Promote longevity and vitality</p></div>",
+    "fertiwise": "<div class='product-banner'><h3>FertiWise</h3><p>Fertility support for your journey</p></div>",
+    "glutarish": "<div class='product-banner'><h3>GlutaRish</h3><p>Skin brightening and antioxidant support</p></div>",
+    "hairwise": "<div class='product-banner'><h3>HairWise</h3><p>Nutrition for healthier hair</p></div>",
+    "heartwise": "<div class='product-banner'><h3>HeartWise</h3><p>Cardiovascular health support</p></div>",
+    "kindliver": "<div class='product-banner'><h3>KindLiver</h3><p>Gentle liver support and detox</p></div>",
+    "reign": "<div class='product-banner'><h3>Reign</h3><p>Take control of your wellbeing</p></div>",
+    "utiwise": "<div class='product-banner'><h3>UtiWise</h3><p>Urinary tract health support</p></div>",
+    "sync": "<div class='product-banner'><h3>Sync</h3><p>Harmonize your body's rhythms</p></div>",
+    "triumph": "<div class='product-banner'><h3>Triumph</h3><p>Achieve your health goals</p></div>"
+  };
+
+  // Get current URL in lowercase for case-insensitive matching
+  const currentUrl = window.location.href.toLowerCase();
+  const dynamicContent = document.getElementById('dynamic-content');
+  let matchedContent = '';
+  
+  // Check for all possible matches (can display multiple if found)
+  for (const [keyword, content] of Object.entries(contentMap)) {
+    if (currentUrl.includes(keyword.toLowerCase())) {
+      matchedContent += content;
+    }
+  }
+
+  // Insert content (or default message if no matches)
+  dynamicContent.innerHTML = matchedContent || "<div class='default-message'>Explore our wellness products</div>";
+
+
+</script>
+</body>
+</html>
