@@ -1,16 +1,6 @@
-# PowerNosh - Healthy Meal Delivery Service
+# PowerNosh Nutrition
 
 ![PowerNosh Logo](https://via.placeholder.com/150x50?text=PowerNosh+Logo)
-
-PowerNosh is a healthy meal delivery service website that provides nutritious and delicious meals tailored to your dietary needs and fitness goals.
-
-## Features
-
-- **Meal Selection**: Browse and select from a variety of healthy meal options
-- **Subscription Plans**: Choose from weekly or monthly meal plans
-- **Customization**: Customize meals based on dietary preferences (vegan, keto, gluten-free, etc.)
-- **Delivery Scheduling**: Flexible delivery scheduling to fit your routine
-- **User Accounts**: Create and manage your account with order history and preferences
 
 ## Technologies Used
 
