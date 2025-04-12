@@ -1,0 +1,65 @@
+.title.h1 {
+    font-size: 4rem; /* Adjust as needed */
+color:#6e8c3e;
+font-weight:500;
+text-align:center;
+  }
+  
+  /* Make card titles smaller on mobile */
+  .multicolumn-card__info h3 {
+    font-size: 1.5rem; /* Adjust as needed */
+  }
+
+  /* Description text mobile-specific adjustments */
+  .multicolumn-card__info .rte p {
+    font-size: 1.1rem;    /* Slightly smaller on mobile */
+    line-height: 1.3;      /* Tighter line spacing on mobile */
+  }
+
+/* Add border to each cell */
+.multicolumn-card {
+  border: 2px solid rgba(0, 0, 0, 1); /* subtle border */
+  border-radius: 12px; /* rounded corners */
+  overflow: hidden; /* ensures content respects the border radius */
+  transition: box-shadow 0.3s ease; /* optional: adds hover effect */
+}
+
+/* Optional: Add hover effect for interactivity */
+.multicolumn-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.58);
+}
+
+/* Padding for the container - desktop */
+.section-template--24164731945233__07fd3d78-77cd-4794-8578-53d94d29ceca-padding {
+  padding: 10px 120px;
+}
+
+/* Padding for the container - mobile */
+@media screen and (max-width: 749px) {
+
+ /* Make main title smaller on mobile */
+  .title.h1 {
+    font-size: 2rem; /* Adjust as needed */
+color:#6e8c3e;
+font-weight:500;
+  }
+
+  /* Description text mobile-specific adjustments */
+  .multicolumn-card__info .rte p {
+    font-size: 0.85rem;    /* Slightly smaller on mobile */
+    line-height: 1.3;      /* Tighter line spacing on mobile */
+  }
+  
+  /* Make card titles smaller on mobile */
+  .multicolumn-card__info h3 {
+    font-size: 1.1rem; /* Adjust as needed */
+  }
+  .section-template--24164731945233__07fd3d78-77cd-4794-8578-53d94d29ceca-padding {
+    padding: 10px;
+  }
+}
+
+/* Add some padding inside each card for better spacing */
+.multicolumn-card__info {
+  padding: 16px;
+}
