@@ -1,0 +1,84 @@
+
+<head><style><style>/* Popup container */
+    .popup-container {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    /* Popup content */
+    .popup-content {
+      position: relative;
+      background: white;
+      width: 90%;
+      max-width: 800px;
+      height: 80vh;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Close button */
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      color: #aaa;
+      cursor: pointer;
+      z-index: 1001;
+    }
+    
+    .close-btn:hover {
+      color: #555;
+    }
+    
+    /* Button to trigger popup */
+    .popup-trigger {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    .popup-trigger:hover {
+      background-color: #45a049;
+    }</style></style></head>
+
+
+
+<!-- Button to trigger the popup -->
+<button id="consultationBtn" class="popup-trigger">Book a Free Consultation</button>
+
+<!-- Popup container (hidden by default) -->
+<div id="consultationPopup" class="popup-container">
+  <div class="popup-content">
+    <span class="close-btn">&times;</span>
+    <iframe
+      id="JotFormIFrame-251035953394460"
+      title="Book a Free Consultation"
+      allowtransparency="true"
+      allow="geolocation; microphone; camera; fullscreen"
+      src="https://form.jotform.com/251035953394460"
+      frameborder="0"
+      style="width:100%;height:100%;border:none;"
+      scrolling="no"
+    >
+    </iframe>
+  </div>
+</div>
+
+<script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+<script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-251035953394460']", "https://form.jotform.com/")</script>
+
