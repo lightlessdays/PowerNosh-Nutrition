@@ -3,6 +3,15 @@
 <!-- Last Published: Tue May 28 2024 10:04:20 GMT+0000 (Coordinated Universal Time) -->
 <html data-wf-page="6641be7d13cf9f3f595e7e64" data-wf-site="6641be7d13cf9f3f595e7e6f" lang="en">
     <head>
+        <script>
+            // Inside index2.html
+window.addEventListener('load', function() {
+  window.parent.postMessage({
+    type: 'iframeHeight',
+    height: document.body.scrollHeight
+  }, '*');
+});
+        </script>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Home | PowerNosh Nutrition</title>
@@ -83,7 +92,7 @@
     </head>
     <body>
    
-        <section data-w-id="501032d1-dc46-2fd1-943f-c2a42d7a9b18" class="hero-section">
+        <section data-w-id="501032d1-dc46-2fd1-943f-c2a42d7a9b18" class="hero-section" style="padding-top:0px; margin-top:0px;">
             <div class="w-layout-blockcontainer container-full w-container">
                 <div class="hero-content-center-wrap">
                     <div class="hero-content-center">
