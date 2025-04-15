@@ -5020,6 +5020,10 @@ html {
     margin-left: 15px;
     margin-right: 15px;
   }
+
+  .star-rating{
+    padding-bottom: 10px;
+  }
   
   .avatar-info-wrap {
     text-align: left;
@@ -5029,6 +5033,10 @@ html {
     display: flex;
   }
   
+  .star-image{
+    width: 15px;
+    height:15px;
+  }
   .testimonial-slider-arrow-hide {
     display: none;
   }
