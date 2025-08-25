@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahindra Group - Project EVOLVE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-print-color-adjust: exact;
+        }
+        .a4-page {
+            width: 210mm;
+            height: 297mm;
+            margin: 20px auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+        }
+        .slide {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            background-size: cover;
+            background-position: center;
+        }
+        .mahindra-red { color: #DD1B2E; }
+        .mahindra-gray { color: #333333; }
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            left: 40px;
+            right: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+        }
+        .page-number {
+            font-weight: 600;
+        }
+        .slide-title {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        .slide-subtitle {
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 8px;
+        }
+        .kpi-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+        .table-auto th, .table-auto td {
+            padding: 12px 16px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Slide 1: Title -->
+    <div class="a4-page bg-white">
+        <div class="slide" style="background-image: url('https://placehold.co/800x1200/f0f2f5/333333?text=Modern+Cityscape');">
+            <div class="flex flex-col justify-center items-center text-center h-full text-white bg-black bg-opacity-50 p-10 rounded-lg">
+                <img src="https://placehold.co/200x100/ffffff/DD1B2E?text=MAHINDRA" alt="Mahindra Logo" class="mb-8">
+                <h1 class="text-5xl font-bold tracking-tight">Project EVOLVE</h1>
+                <p class="text-2xl mt-4 font-light">Powering India's Two-Wheeler Revolution</p>
+                <p class="text-lg mt-12">A Strategic Growth Opportunity in Electric Mobility</p>
+                <p class="text-sm mt-4">August 25, 2025</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: The Opportunity -->
+    <div class="a4-page bg-white">
+        <div class="slide mahindra-gray">
+            <h2 class="slide-title">The Tipping Point: <span class="mahindra-red">India's Electric Future is Now</span></h2>
+            <p class="mt-4 text-lg">India's electric two-wheeler market is at an inflection point, poised for explosive growth driven by strong government support and shifting consumer preferences.</p>
+            
+            <div class="flex-grow mt-8 grid grid-cols-2 gap-8">
+                <div class="col-span-2">
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <p class="text-center text-xl font-semibold">Projected Electric 2-Wheeler Market Size (India)</p>
+                        <img src="https://placehold.co/700x300/f0f2f5/DD1B2E?text=Infographic:+Exponential+Growth+Curve" alt="Market Growth Chart" class="mt-4 w-full rounded-lg">
+                        <p class="text-center text-4xl font-bold mahindra-red mt-4">$100 Billion by 2030</p>
+                    </div>
+                </div>
+                <div class="kpi-card border border-gray-200">
+                    <h3 class="text-xl font-semibold">Favorable Policies</h3>
+                    <p class="mt-2">FAME-II subsidies, tax benefits, and state-level incentives are accelerating adoption.</p>
+                </div>
+                <div class="kpi-card border border-gray-200">
+                    <h3 class="text-xl font-semibold">Rising Fuel Prices</h3>
+                    <p class="mt-2">Making EVs a significantly more cost-effective alternative for daily commuting.</p>
+                </div>
+                <div class="kpi-card border border-gray-200">
+                    <h3 class="text-xl font-semibold">Environmental Consciousness</h3>
+                    <p class="mt-2">A growing desire among consumers for sustainable and clean transportation.</p>
+                </div>
+                <div class="kpi-card border border-gray-200">
+                    <h3 class="text-xl font-semibold">Urban Mobility Needs</h3>
+                    <p class="mt-2">Electric scooters are the perfect solution for navigating congested city streets.</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>Project EVOLVE | Confidential</p>
+                <p class="page-number">2</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: The Problem/Gap -->
+    <div class="a4-page bg-white">
+        <div class="slide mahindra-gray">
+            <h2 class="slide-title">The <span class="mahindra-red">Missing Piece</span> in Our EV Portfolio</h2>
+            <p class="mt-4 text-lg">While Mahindra is a dominant force in electric 3 & 4-wheelers, we are conspicuously absent from the fastest-growing and largest segment of the EV market.</p>
+            
+            <div class="flex-grow mt-8 flex items-center justify-center">
+                 <img src="https://placehold.co/700x400/f0f2f5/333333?text=Chart:+2-Wheeler+EV+Market+Share" alt="Market Share Chart" class="w-full rounded-lg shadow-lg">
+            </div>
+             <p class="text-center mt-4 text-sm text-gray-600">Current market is dominated by new-age players and established competitors who have a significant head start.</p>
+
+            <div class="mt-8 grid grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold">Our Strengths</h3>
+                    <ul class="list-disc list-inside mt-4 space-y-2">
+                        <li>Leadership in L5 EVs (Treo, Zor Grand)</li>
+                        <li>Growing presence in personal EVs (XUV400)</li>
+                        <li>Strong brand equity and trust</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mahindra-red">The Opportunity Gap</h3>
+                     <ul class="list-disc list-inside mt-4 space-y-2">
+                        <li>No offering in the high-volume 2-wheeler segment</li>
+                        <li>Risk of losing relevance with younger demographics</li>
+                        <li>Competitors are capturing a rapidly expanding market</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>Project EVOLVE | Confidential</p>
+                <p class="page-number">3</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4: The Solution -->
+    <div class="a4-page bg-white">
+        <div class="slide" style="background-image: url('https://placehold.co/800x1200/222222/ffffff?text=');">
+            <div class="text-white">
+                <h2 class="slide-title">Introducing Mahindra <span class="mahindra-red">'Ampere'</span></h2>
+                <p class="slide-subtitle">The Charge of a New Generation.</p>
+            </div>
+            <div class="flex-grow mt-8 grid grid-cols-2 gap-8 items-center">
+                <div class="col-span-1">
+                     <img src="https://placehold.co/400x400/ffffff/DD1B2E?text=Mahindra+Ampere+Scooter" alt="Mahindra Ampere Scooter" class="w-full rounded-lg">
+                </div>
+                <div class="col-span-1 text-white space-y-8">
+                    <div>
+                        <h3 class="text-3xl font-bold">Ampere <span class="mahindra-red">Go</span></h3>
+                        <p class="mt-2">The definitive city commuter. Smart, reliable, and accessible.</p>
+                        <ul class="mt-4 space-y-1 text-gray-300">
+                            <li><strong>Range:</strong> 120 km</li>
+                            <li><strong>Top Speed:</strong> 60 km/h</li>
+                            <li><strong>Features:</strong> Swappable Battery, Connected App</li>
+                        </ul>
+                    </div>
+                     <div>
+                        <h3 class="text-3xl font-bold">Ampere <span class="mahindra-red">Max</span></h3>
+                        <p class="mt-2">For those who demand more. Performance, style, and cutting-edge tech.</p>
+                        <ul class="mt-4 space-y-1 text-gray-300">
+                            <li><strong>Range:</strong> 180 km</li>
+                            <li><strong>Top Speed:</strong> 90 km/h</li>
+                            <li><strong>Features:</strong> Fast Charging, Advanced Telematics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+             <div class="footer text-white">
+                <p>Project EVOLVE | Confidential</p>
+                <p class="page-number">4</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5: Right to Win -->
+    <div class="a4-page bg-white">
+        <div class="slide mahindra-gray">
+            <h2 class="slide-title">Our Right to Win: The <span class="mahindra-red">Mahindra Advantage</span></h2>
+            <p class="mt-4 text-lg">We are uniquely positioned to not just compete, but to lead. Our inherent strengths create an unparalleled competitive advantage.</p>
+            
+            <div class="flex-grow mt-8 grid grid-cols-2 grid-rows-2 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg flex items-center">
+                    <div>
+                        <h3 class="text-2xl font-semibold mahindra-red">Brand Legacy & Trust</h3>
+                        <p class="mt-2">A 75+ year legacy of building trust and delivering on promises. A name that resonates with every Indian household.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg flex items-center">
+                    <div>
+                        <h3 class="text-2xl font-semibold mahindra-red">Manufacturing Excellence</h3>
+                        <p class="mt-2">World-class production facilities and deep expertise in automotive engineering ensure superior product quality and scale.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg flex items-center">
+                    <div>
+                        <h3 class="text-2xl font-semibold mahindra-red">Pan-India Network</h3>
+                        <p class="mt-2">An unmatched, ready-to-activate network of dealers and service centers for sales, service, and battery swapping.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg flex items-center">
+                    <div>
+                        <h3 class="text-2xl font-semibold mahindra-red">Financial Powerhouse</h3>
+                        <p class="mt-2">The financial strength to invest decisively in R&D, manufacturing, and brand building for long-term success.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>Project EVOLVE | Confidential</p>
+                <p class="page-number">5</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 6: Go-to-Market Strategy -->
+    <div class="a4-page bg-white">
+        <div class="slide mahindra-gray">
+            <h2 class="slide-title">Go-to-Market Strategy: A <span class="mahindra-red">Phased & Focused</span> Approach</h2>
+            <p class="mt-4 text-lg">Our launch strategy is designed to build momentum, capture key markets, and scale efficiently.</p>
+            
+            <div class="flex-grow mt-8 space-y-8">
+                <div class="flex items-start gap-6">
+                    <div class="bg-mahindra-red text-white rounded-full h-16 w-16 flex items-center justify-center text-2xl font-bold flex-shrink-0">01</div>
+                    <div>
+                        <h3 class="text-2xl font-semibold">Phase 1 (Year 1): Metro Launch & Brand Build</h3>
+                        <p class="mt-2">Launch in the top 10 metro cities. Focus on creating a strong brand narrative through a digital-first campaign. Establish flagship experience centers and leverage online pre-bookings to create hype and demand.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-6">
+                    <div class="bg-mahindra-red text-white rounded-full h-16 w-16 flex items-center justify-center text-2xl font-bold flex-shrink-0">02</div>
+                    <div>
+                        <h3 class="text-2xl font-semibold">Phase 2 (Years 2-3): Geographic Expansion</h3>
+                        <p class="mt-2">Expand our footprint to Tier-2 and Tier-3 cities, leveraging our existing dealer network. Scale up production capacity to meet the surge in demand and introduce new product variants based on early customer feedback.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-6">
+                    <div class="bg-mahindra-red text-white rounded-full h-16 w-16 flex items-center justify-center text-2xl font-bold flex-shrink-0">03</div>
+                    <div>
+                        <h3 class="text-2xl font-semibold">Phase 3 (Years 4-5): Market Leadership & Beyond</h3>
+                        <p class="mt-2">Consolidate our position to achieve market leadership. Begin exploring export opportunities in SAARC and ASEAN markets, establishing Mahindra Ampere as a global brand.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>Project EVOLVE | Confidential</p>
+                <p class="page-number">6</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Slide 7: Marketing Plan -->
+    <div class="a4-page bg-white">
+        <div class="slide mahindra-gray">
+            <h2 class="slide-title">Marketing Plan: <span class="mahindra-red">Creating a Movement</span></h2>
+            <p class="mt-4 text-lg">Our marketing will go beyond selling a product; we will inspire a new generation to embrace a smarter, more sustainable way to move.</p>
+            <h3 class="mt-4 text-2xl font-semibold text-center">Campaign Theme: <span class="italic">"Mahindra Ampere: The Future is in Your Hands."</span></h3>
+
+            <div class="flex-grow mt-8 grid grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h4 class="text-xl font-bold mahindra-red">Digital Dominance</h4>
+                    <ul class="list-disc list-inside mt-4 space-y-2">
+                        <li>Engaging social media on Instagram & YouTube</li>
+                        <li>Collaborations with top tech & auto influencers</li>
+                        <li>Hyper-targeted online advertising campaigns</li>
+                        <li>Viral content challenges</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h4 class="text-xl font-bold mahindra-red">Experiential Marketing</h4>
+                    <ul class="list-disc list-inside mt-4 space-y-2">
+                        <li>Pop-up experience zones in malls & tech parks</li>
+                        <li>University campus activations and test rides</li>
+                        <li>Sponsorship of music and cultural festivals</li>
+                        <li>Participation in major auto expos</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h4 class="text-xl font-bold mahindra-red">Strategic PR</h4>
+                    <ul class="list-disc list-inside mt-4 space-y-2">
+                        <li>High-profile media launch events</li>
+                        <li>Thought leadership on the future of mobility</li>
+                        <li>Partnerships with environmental NGOs</li>
+                        <li>Showcasing customer success stories</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>Project EVOLVE | Confidential</p>
+                <p class="page-number">7</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 8: Financial Projections -->
+    <div class="a4-page bg-white">
+        <div class="slide mahindra-gray">
+            <h2 class="slide-title">Financial Projections: <span class="mahindra-red">A Profitable Ride</span></h2>
+            <p class="mt-4 text-lg">Our plan is built on a solid financial foundation, projecting strong growth and a clear path to profitability.</p>
+
+            <div class="mt-6">
+                <h3 class="text-xl font-semibold">5-Year Financial Summary <span class="text-sm font-normal">(in INR Crore)</span></h3>
+                <div class="mt-4 overflow-x-auto">
+                    <table class="w-full text-left table-auto border-collapse">
+                        <thead>
+                            <tr class="bg-gray-100">
+                                <th class="border-b-2 border-gray-200">Year</th>
+                                <th class="border-b-2 border-gray-200">Sales (Units)</th>
+                                <th class="border-b-2 border-gray-200">Revenue</th>
+                                <th class="border-b-2 border-gray-200">EBITDA</th>
+                                <th class="border-b-2 border-gray-200">PAT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border-b border-gray-200 font-semibold">1</td>
+                                <td class="border-b border-gray-200">50,000</td>
+                                <td class="border-b border-gray-200">500</td>
+                                <td class="border-b border-gray-200 text-red-600">(100)</td>
+                                <td class="border-b border-gray-200 text-red-600">(150)</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b border-gray-200 font-semibold">2</td>
+                                <td class="border-b border-gray-200">150,000</td>
+                                <td class="border-b border-gray-200">1,600</td>
+                                <td class="border-b border-gray-200 text-green-600">150</td>
+                                <td class="border-b border-gray-200 text-green-600">50</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b border-gray-200 font-semibold">3</td>
+                                <td class="border-b border-gray-200">300,000</td>
+                                <td class="border-b border-gray-200">3,300</td>
+                                <td class="border-b border-gray-200 text-green-600">500</td>
+                                <td class="border-b border-gray-200 text-green-600">250</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b border-gray-200 font-semibold">4</td>
+                                <td class="border-b border-gray-200">500,000</td>
+                                <td class="border-b border-gray-200">5,600</td>
+                                <td class="border-b border-gray-200 text-green-600">900</td>
+                                <td class="border-b border-gray-200 text-green-600">500</td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                                <td class="font-semibold">5</td>
+                                <td>750,000</td>
+                                <td>8,500</td>
+                                <td class="text-green-600">1,500</td>
+                                <td class="text-green-600">900</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="mt-8 grid grid-cols-3 gap-8">
+                <div class="text-center bg-gray-50 p-6 rounded-lg">
+                    <p class="text-lg">Initial Investment</p>
+                    <p class="text-3xl font-bold mahindra-red">₹2,000 Cr</p>
+                    <p class="text-sm">(R&D, Plant Setup, Marketing)</p>
+                </div>
+                <div class="text-center bg-gray-50 p-6 rounded-lg">
+                    <p class="text-lg">Breakeven Point</p>
+                    <p class="text-3xl font-bold mahindra-red">Year 2</p>
+                    <p class="text-sm">(Achieving operational profitability)</p>
+                </div>
+                <div class="text-center bg-gray-50 p-6 rounded-lg">
+                    <p class="text-lg">Projected ROI</p>
+                    <p class="text-3xl font-bold mahindra-red">35%</p>
+                    <p class="text-sm">(Over 5 years)</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>Project EVOLVE | Confidential</p>
+                <p class="page-number">8</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Slide 9: The Vision -->
+    <div class="a4-page bg-white">
+        <div class="slide" style="background-image: url('https://placehold.co/800x1200/e0e7ff/333333?text=Futuristic+Mobility+Ecosystem');">
+             <div class="flex flex-col justify-center h-full text-gray-800 bg-white bg-opacity-70 p-10 rounded-lg">
+                <h2 class="slide-title">The Road Ahead: <span class="mahindra-red">Our Vision for the Future</span></h2>
+                <p class="mt-4 text-lg">Project EVOLVE is more than a new product launch; it is a strategic move to position Mahindra as the undisputed leader in India's electric mobility ecosystem.</p>
+                <ul class="mt-8 space-y-6 text-xl">
+                    <li class="flex items-start gap-4">
+                        <span class="mahindra-red font-bold text-2xl mt-1">&#10003;</span>
+                        <span>Build a complete EV ecosystem, from battery swapping to charging solutions.</span>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <span class="mahindra-red font-bold text-2xl mt-1">&#10003;</span>
+                        <span>Innovate continuously to create smarter, safer, and more connected vehicles.</span>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <span class="mahindra-red font-bold text-2xl mt-1">&#10003;</span>
+                        <span>Expand our global footprint and establish 'Mahindra Electric' as a leading international brand.</span>
+                    </li>
+                </ul>
+            </div>
+             <div class="footer">
+                <p>Project EVOLVE | Confidential</p>
+                <p class="page-number">9</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 10: Call to Action -->
+    <div class="a4-page bg-mahindra-red">
+        <div class="slide text-white flex flex-col justify-center items-center text-center">
+            <img src="https://placehold.co/200x100/ffffff/DD1B2E?text=MAHINDRA" alt="Mahindra Logo" class="mb-12 filter brightness-0 invert">
+            <h2 class="text-6xl font-bold">Let's Power the Future.</h2>
+            <h2 class="text-6xl font-bold mt-2">Together.</h2>
+            <p class="mt-12 text-2xl">Seeking approval and investment to launch Project EVOLVE and redefine mobility for a billion people.</p>
+        </div>
+    </div>
+
+</body>
+</html>
